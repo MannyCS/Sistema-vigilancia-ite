@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Prototipo_SS</string>
+    <string name="iniciar_sesion_como_administrador">Iniciar sesion como administrador</string>
+    <string name="iniciar_sesion_como_guardia">iniciar sesion como guardia</string>
+    <string name="aqui_se_revisan_los_rondines">Aqui se revisan los rondines</string>
+    <string name="hola_aqui_se_hara_este_pedo">Hola aqui se hara este pedo</string>
+    <string name="aqui_se_agregara_usuario_y_contrase_a">Aqui se agregara usuario y contraseña</string>
+    <string name="registrar">Registrar</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="todo">TODO</string>
+    <string name="agregar_imagen">Agregar imagen</string>
+    <string name="button">Button</string>
+    <string name="registrar_usuario">Usuarios</string>
+    <string name="seguridad">Opciones de administración</string>
+    <string name="eliminar_usuario">Acerca de</string>
+    <string name="proximamente">Noticias</string>
+    <string name="ver_formularios">Formularios</string>
+    <string name="etNombre1">Nombre</string>
+    <string name="etNombre2">Nombre</string>
+    <string name="BotonEnviar">Nombre</string>
+    <string name="BotonRegresar">Nombre</string>
+    <string name="title_activity_adminform">adminform</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

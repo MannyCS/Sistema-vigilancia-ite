@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".noticias">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="129dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/noticiasEdit"
+                android:layout_width="346dp"
+                android:layout_height="76dp"
+                android:hint="Editar para apartado 1 del noticias"
+                android:inputType="textMultiLine"
+                android:maxLength="150"
+                android:maxLines="7"
+                android:scrollHorizontally="false" />
+
+            <EditText
+                android:id="@+id/noticiasEdit2"
+                android:layout_width="346dp"
+                android:layout_height="76dp"
+                android:layout_marginTop="20dp"
+                android:gravity="top"
+                android:hint="Editar para apartado 2 del noticias"
+                android:inputType="textMultiLine"
+                android:maxLength="150"
+                android:maxLines="7"
+                android:scrollHorizontally="false" />
+
+            <EditText
+                android:id="@+id/noticiasEdit3"
+                android:layout_width="346dp"
+                android:layout_height="76dp"
+                android:layout_marginTop="20dp"
+                android:gravity="top"
+                android:hint="Editar para apartado 3 del noticias"
+                android:inputType="textMultiLine"
+                android:maxLength="150"
+                android:maxLines="7"
+                android:scrollHorizontally="false" />
+
+            <EditText
+                android:id="@+id/noticiasEdit4"
+                android:layout_width="346dp"
+                android:layout_height="76dp"
+                android:layout_marginTop="20dp"
+                android:gravity="top"
+                android:hint="Editar para apartado 4 del noticias"
+                android:inputType="textMultiLine"
+                android:maxLength="150"
+                android:maxLines="7"
+                android:scrollHorizontally="false" />
+
+            <EditText
+                android:id="@+id/noticiasEdit5"
+                android:layout_width="346dp"
+                android:layout_height="76dp"
+                android:layout_marginTop="20dp"
+                android:gravity="top"
+                android:hint="Editar para apartado 5 del noticias"
+                android:inputType="textMultiLine"
+                android:maxLength="150"
+                android:maxLines="7"
+                android:scrollHorizontally="false" />
+
+            <Button
+                android:id="@+id/btnenviar"
+                android:layout_width="137dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="20dp"
+                android:background="#143874"
+                android:text="Enviar"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
